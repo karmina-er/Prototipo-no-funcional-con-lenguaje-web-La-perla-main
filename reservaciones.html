@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservaciones - La Perla Restaurant</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="La Perla Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="reservaciones.html">Reservaciones</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reservations">
+            <h1>Haz tu Reservación</h1>
+            <form class="reservation-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="date">Fecha:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Hora:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="people">Personas:</label>
+                <input type="number" id="people" name="people" min="1" max="20" required>
+                
+                <button type="submit">Reservar</button>
+            </form>
+        </section>
+    </main>
+ <!-- Footer -->
+ <footer>
+    <div class="footer-container">
+        <img src="images/redess.png" alt="La Perla Restaurant redes" class="redes">
+    </div>
+
+</footer>
+
+</body>
+</html>
